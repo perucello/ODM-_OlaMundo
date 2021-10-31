@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="com.educaciencia.odm.Request">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.OlaMundo/mensagemOlaMundo/GETTER#0">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.OlaMundo">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.Request/senha/GETTER#0">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.OlaMundo/mensagemOlaMundo/SETTER#0">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </vocElt>
+        <vocElt id="com.educaciencia.odm.Request/nome/GETTER#0">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2">
+            <vocElt id="com.educaciencia.odm.Request"/>
+            <vocElt id="com.educaciencia.odm.OlaMundo/mensagemOlaMundo/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.OlaMundo"/>
+            <vocElt id="com.educaciencia.odm.Request/senha/GETTER#0"/>
+            <vocElt id="com.educaciencia.odm.OlaMundo/mensagemOlaMundo/SETTER#0"/>
+            <vocElt id="com.educaciencia.odm.Request/nome/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="request">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </param>
+        <param id="mensagem">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2">
+            <param id="request"/>
+            <param id="mensagem"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="d9680f21-ec6a-4ae9-841a-f32372726f4e">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/DS_OlaMundo/bom/modelo_pt_BR.voc" id="c9e2ed09-4e96-41d4-9d79-d7a4af339e1a">
+            <rule id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/DS_OlaMundo/regras/Regra_OlaMundo.brl" id="e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2"/>
+        <resource file="/DS_OlaMundo/regras/variaveis.var" id="d9680f21-ec6a-4ae9-841a-f32372726f4e"/>
+    </resourceTable>
+</impactTables>

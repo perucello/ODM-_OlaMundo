@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Regra_OlaMundo</name>
+  <uuid>e0d65a6c-6fb7-4359-8ac4-97d44d77f2c2</uuid>
+  <locale>pt_BR</locale>
+  <definition><![CDATA[se 
+	 o seu o nome é de request é "educaciencia"
+	 e sua o senha é de request é igual a 1234
+então 
+Apresentar o mensagem ola mundo de mensagem ; 
+atribuir o mensagem ola mundo de mensagem a o mensagem ola mundo de mensagem ;   ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

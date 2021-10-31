@@ -1,0 +1,14 @@
+# Vocabulary Properties
+uuid = c9e2ed09-4e96-41d4-9d79-d7a4af339e1a
+
+# com.educaciencia.odm.OlaMundo
+com.educaciencia.odm.OlaMundo#concept.label = ola mundo
+com.educaciencia.odm.OlaMundo.mensagemOlaMundo#phrase.action = atribuir o mensagem ola mundo {this, PARTITIVE_ARTICLE} a {mensagem ola mundo}
+com.educaciencia.odm.OlaMundo.mensagemOlaMundo#phrase.navigation = {mensagem ola mundo} {this, PARTITIVE_ARTICLE}
+
+# com.educaciencia.odm.Request
+com.educaciencia.odm.Request#concept.label = request
+com.educaciencia.odm.Request.nome#phrase.action = atribuir o nome {this, PARTITIVE_ARTICLE} a {nome}
+com.educaciencia.odm.Request.nome#phrase.navigation = o seu {nome} para  {this, PARTITIVE_ARTICLE}
+com.educaciencia.odm.Request.senha#phrase.action = atribuir o senha {this, PARTITIVE_ARTICLE} a {senha}
+com.educaciencia.odm.Request.senha#phrase.navigation = sua {senha} é {this, PARTITIVE_ARTICLE}

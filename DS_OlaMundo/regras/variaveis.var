@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>variaveis</name>
+  <uuid>d9680f21-ec6a-4ae9-841a-f32372726f4e</uuid>
+  <variables name="request" type="com.educaciencia.odm.Request" initialValue="" verbalization="request"/>
+  <variables name="mensagem" type="com.educaciencia.odm.OlaMundo" initialValue="new com.educaciencia.odm.OlaMundo()" verbalization="mensagem"/>
+</ilog.rules.studio.model.base:VariableSet>

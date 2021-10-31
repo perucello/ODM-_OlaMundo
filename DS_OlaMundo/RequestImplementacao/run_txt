@@ -1,0 +1,11 @@
+Para digitar a senha e apresentar o resultado da regra,
+digite em "implementação" o codigo abaixo:
+
+
+com.educaciencia.odm.Request result = new com.educaciencia.odm.Request();
+result.nome = "educaciencia";
+result.senha = 1234;
+return result;
+
+
+

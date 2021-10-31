@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="runOlaMundo" targetRuleProjectName="DS_OlaMundo">
+  <name>runOlaMundo</name>
+  <uuid>dc8c4d0e-e47d-4ed5-9472-c4b686fb6cff</uuid>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="runOlaMundo_extractor" validator="Validador Padrão"/>
+  <targetRuleProject href="../../DS_OlaMundo#c251a38e-003e-4c44-9207-483f42d30b27"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

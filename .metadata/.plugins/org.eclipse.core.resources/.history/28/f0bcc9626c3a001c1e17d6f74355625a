@@ -1,0 +1,22 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/DS_OlaMundo//XOM_OlaMundo"
+property uuid "1ecdddef-1dd3-49fe-9842-e7d10257e756"
+package com.educaciencia.odm;
+
+
+public class OlaMundo
+{
+    public string mensagemOlaMundo;
+    public OlaMundo();
+    public OlaMundo(string arg);
+}
+
+public class Request
+{
+    public string nome;
+    public int senha;
+    public Request();
+    public Request(string arg1, int arg2);
+}
+
